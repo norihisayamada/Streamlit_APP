@@ -3,7 +3,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 # データ分析関係
-df = pd.read_csv('../testdata.csv', index_col='月')
+df = pd.read_csv('testdata.csv', index_col='月')
 st.dataframe(df)
 st.table(df)
 st.line_chart(df)
