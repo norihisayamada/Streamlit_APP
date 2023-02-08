@@ -4,6 +4,6 @@ from PIL import Image
 st.title('Webアプリの練習')
 st.caption('テストアプリ')
 
-image = Image.open('../images.png')
+image = Image.open('.data/images.png')
 st.image(image,width=250)
 
